@@ -13,6 +13,6 @@ function generateIdea() {
     const reading = getRandomElement(readings);
     const champagne = getRandomElement(champagnes);
 
-    const idea = `Ort: ${place}, Lektüre: ${reading}, Schaumwein: ${champagne}`;
+    const idea = `Ort: ${place}, Lektüre: ${reading}, Schaumgetränk: ${champagne}`;
     document.getElementById('idea').innerText = idea;
 }
